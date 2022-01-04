@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+body {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(../images/bg-intro-mobile.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.header {
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    margin: 5rem 2rem;
+}
+
+.header h1 {
+    font-size: 3.2rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+}
+
+.header p {
+    font-size: 1.9rem;
+    color: rgba(255, 255, 255, .9);
+    margin: 0 1.5rem;
+}
+
+.purple-banner {
+    height: 6rem;
+    width: 28rem;
+    margin: 0 auto;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: .6rem;
+    margin-bottom: 1.8rem;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow: .1rem .1rem .5rem rgb(43, 42, 42);
+}
+
+.purple-banner p {
+    padding: 1rem 5rem 0rem 5rem;
+    color: rgba(255, 255, 255, .8)
+}
+
+.free {
+    color: white;
+}
+
+.table {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 28rem;
+    border: 2rem solid white;
+    border-radius: .5rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-bottom: 7rem;
+    box-shadow: .3rem .3rem .8rem rgb(56, 55, 55);
+}
+
+input {
+    margin-bottom: 1.5rem;
+    height: 3.5rem;
+    border-radius: .4rem;
+    border: .2rem solid rgba(59, 59, 59, 0.329);
+
+}
+
+::placeholder {
+    padding-left: .5rem;
+    font-weight: 700;
+    color: rgb(56, 55, 55);
+}
+
+
+.submitBtn {
+    cursor: pointer;
+    color: white;
+    height: 5rem;
+    font-weight: 700;
+    background-color: hsl(154, 59%, 51%);
+    border: none;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+    box-shadow: .3rem .3rem .5rem hsl(154, 59%, 51%);
+}
+
+.table p {
+    font-size: 1.2rem;
+    text-align: center
+}
+
+.redText {
+    color: red;
+    font-weight: 700;
+    font-style: italic;
+}
