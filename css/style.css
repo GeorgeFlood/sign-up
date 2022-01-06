@@ -173,3 +173,11 @@ input:focus {
         height: 5rem;
     }
 }
+
+.red {
+    border: .2rem solid rgb(255, 39, 39)
+}
+
+.green {
+    border: .2rem solid rgb(60, 230, 60)
+}
