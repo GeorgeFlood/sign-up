@@ -80,8 +80,17 @@ body {
 input {
     margin-bottom: 1.5rem;
     height: 3.5rem;
+    font-size: 1.3rem;
     border-radius: .4rem;
-    border: .2rem solid rgba(59, 59, 59, 0.329);
+    border: .2rem solid rgba(59, 59, 59, 0.3);
+    padding-left: .7rem;
+
+}
+
+input:focus {
+    outline: none;
+    border: .2rem solid rgb(77, 62, 129);
+    transition: .3s;
 
 }
 
@@ -113,4 +122,51 @@ input {
     color: red;
     font-weight: 700;
     font-style: italic;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    body {
+        background-image: url(../images/bg-intro-desktop.png);
+
+    }
+
+    .header {
+        margin: 0 34%;
+        position: relative;
+        top: 30rem;
+        right: 40rem;
+    }
+
+    .header h1 {
+        font-size: 6rem;
+        font-weight: 700;
+    }
+
+    .header p {
+        text-align: left;
+        font-size: 2.1rem;
+    }
+
+    .purple-banner {
+        width: 55rem;
+        margin-left: 70rem;
+    }
+
+    .purple-banner p {
+        font-size: 2rem;
+        padding-top: 1.6rem;
+    }
+
+    .table {
+        width: 55rem;
+        margin-left: 70rem;
+        margin-bottom: 0;
+        border: 4rem solid white;
+        margin-bottom: 0;
+    }
+
+    .table input {
+        height: 5rem;
+    }
 }
