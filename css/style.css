@@ -128,7 +128,6 @@ input:focus {
 
     body {
         background-image: url(../images/bg-intro-desktop.png);
-
     }
 
     .header {
@@ -151,6 +150,8 @@ input:focus {
     .purple-banner {
         width: 55rem;
         margin-left: 70rem;
+        position: relative;
+        bottom: 8rem;
     }
 
     .purple-banner p {
@@ -164,6 +165,8 @@ input:focus {
         margin-bottom: 0;
         border: 4rem solid white;
         margin-bottom: 0;
+        position: relative;
+        bottom: 7rem;
     }
 
     .table input {
